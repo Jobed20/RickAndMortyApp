@@ -20,8 +20,10 @@ const location = useLocation(locationSearch)
       <header>  
         <InputSearch  setlocationSearch ={setlocationSearch}/>
       </header>
+      <div className="locationinfo-container">
     
       <LocationInfo location= {location}/>
+      </div>
 
       <div className="card-container">
         {location?.residents.map(resident =>(
