@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const LocationInfo = ({location}) => {
   return (
   <article className='location-info'>

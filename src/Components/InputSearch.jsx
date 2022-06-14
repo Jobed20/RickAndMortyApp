@@ -9,8 +9,6 @@ const InputSearch = ({setlocationSearch}) => {
 
   }
 
-
-
   return (
     <form className='search' onSubmit={SearchLocation}>
       
